@@ -43,9 +43,27 @@ export const Shop = () => {
         </button>
         <button
           className="categoryBTN"
+          onClick={() => handleCategoryFilter("dessert")}
+        >
+          ของหวาน
+        </button>
+        <button
+          className="categoryBTN"
+          onClick={() => handleCategoryFilter("beverage")}
+        >
+          เครื่องดื่ม
+        </button>
+        <button
+          className="categoryBTN"
           onClick={() => handleCategoryFilter("all cafe")}
         >
           All Cafe
+        </button>
+        <button
+          className="categoryBTN"
+          onClick={() => handleCategoryFilter("drug")}
+        >
+          ยาสามัญประจำบ้าน
         </button>
       </div>
       <div className="products">
