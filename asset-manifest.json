@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Chujai/static/css/main.76ed6fa7.css",
-    "main.js": "/Chujai/static/js/main.70b2c2e7.js",
+    "main.js": "/Chujai/static/js/main.e29a90e0.js",
     "static/media/product6.jpg": "/Chujai/static/media/product6.7fc0579bbb8a56a4091e.jpg",
     "static/media/product1.jpg": "/Chujai/static/media/product1.163f22236e6bd402906f.jpg",
     "static/media/product2.jpg": "/Chujai/static/media/product2.e6694145e4d8d4496a54.jpg",
@@ -46,10 +46,10 @@
     "static/media/product13.jpg": "/Chujai/static/media/product13.ff3db9ac061712f3b08c.jpg",
     "index.html": "/Chujai/index.html",
     "main.76ed6fa7.css.map": "/Chujai/static/css/main.76ed6fa7.css.map",
-    "main.70b2c2e7.js.map": "/Chujai/static/js/main.70b2c2e7.js.map"
+    "main.e29a90e0.js.map": "/Chujai/static/js/main.e29a90e0.js.map"
   },
   "entrypoints": [
     "static/css/main.76ed6fa7.css",
-    "static/js/main.70b2c2e7.js"
+    "static/js/main.e29a90e0.js"
   ]
 }
