@@ -44,7 +44,7 @@ function Header() {
     }
     return (
       <>
-        <p style={{ padding: 5 }}>สวัสดีคุณ {displayName}</p>
+        {/* <p style={{ padding: 5 }}>สวัสดีคุณ {displayName}</p> */}
         <button className="loginBTN" onClick={logoutHandler}>
           Logout
         </button>
