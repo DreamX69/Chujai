@@ -63,7 +63,7 @@ export const Shop = () => {
           className="categoryBTN"
           onClick={() => handleCategoryFilter("drug")}
         >
-          ยาสามัญประจำบ้าน
+          ยาประจำบ้าน
         </button>
       </div>
       <div className="products">
