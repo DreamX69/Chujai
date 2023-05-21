@@ -50,6 +50,7 @@ export const PRODUCTS = [
     price: 39,
     productImage: product1,
     category: "snack",
+    warm: "yes",
   },
   {
     id: 2,
@@ -59,6 +60,7 @@ export const PRODUCTS = [
     price: 45,
     productImage: product2,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 3,
@@ -68,6 +70,7 @@ export const PRODUCTS = [
     price: 29,
     productImage: product3,
     category: "snack",
+    warm: "no",
   },
   {
     id: 4,
@@ -77,6 +80,7 @@ export const PRODUCTS = [
     price: 49,
     productImage: product4,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 5,
@@ -86,6 +90,7 @@ export const PRODUCTS = [
     price: 19,
     productImage: product5,
     category: "snack",
+    warm: "yes",
   },
   {
     id: 6,
@@ -95,6 +100,7 @@ export const PRODUCTS = [
     price: 35,
     productImage: product6,
     category: "snack",
+    warm: "yes",
   },
   {
     id: 7,
@@ -104,6 +110,7 @@ export const PRODUCTS = [
     price: 35,
     productImage: product7,
     category: "bakery",
+    warm: "yes",
   },
   {
     id: 8,
@@ -113,6 +120,7 @@ export const PRODUCTS = [
     price: 49,
     productImage: product8,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 9,
@@ -122,24 +130,27 @@ export const PRODUCTS = [
     price: 49,
     productImage: product9,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 10,
     productName: "ไส้กรอกอกไก่",
     description:
       "ผสมชิ้นเนื้อไก่, 70 กิโลแคลอรี่ ต่อ 50 กรัม, ไม่ใช่อาหารพลังงานต่ำ, ลดไขมันทั้งหมดลด 61%, ลดโคเลสเตอรอลลง 33%, ลดโซเดียมลง 34%",
-    price: 30,
+    price: 35,
     productImage: product10,
     category: "snack",
+    warm: "yes",
   },
   {
     id: 11,
     productName: "แฮมอกไก่ (อกไก่บดขึ้นรูป)",
     description:
       "ผสมชิ้นเนื้ออกไก่, 80 กิโลแคลอรี่ ต่อ 80 กรัม, ไม่ใช่อาหารพลังงานต่ำ, ไขมันต่ำ, ปราศจากไขมันอิ่มตัว, เป็นแหล่งโปรตีน",
-    price: 30,
+    price: 35,
     productImage: product11,
     category: "snack",
+    warm: "yes",
   },
   {
     id: 12,
@@ -149,6 +160,7 @@ export const PRODUCTS = [
     price: 35,
     productImage: product12,
     category: "bakery",
+    warm: "yes",
   },
   {
     id: 13,
@@ -158,6 +170,7 @@ export const PRODUCTS = [
     price: 22,
     productImage: product13,
     category: "snack",
+    warm: "yes",
   },
   {
     id: 14,
@@ -167,6 +180,7 @@ export const PRODUCTS = [
     price: 25,
     productImage: product14,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 15,
@@ -176,6 +190,7 @@ export const PRODUCTS = [
     price: 45,
     productImage: product15,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 16,
@@ -184,6 +199,7 @@ export const PRODUCTS = [
     price: 40,
     productImage: product16,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 17,
@@ -193,6 +209,7 @@ export const PRODUCTS = [
     price: 25,
     productImage: product17,
     category: "snack",
+    warm: "no",
   },
   {
     id: 18,
@@ -201,6 +218,7 @@ export const PRODUCTS = [
     price: 40,
     productImage: product18,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 19,
@@ -209,6 +227,7 @@ export const PRODUCTS = [
     price: 40,
     productImage: product19,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 20,
@@ -217,6 +236,7 @@ export const PRODUCTS = [
     price: 45,
     productImage: product20,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 21,
@@ -225,6 +245,7 @@ export const PRODUCTS = [
     price: 35,
     productImage: product21,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 22,
@@ -233,6 +254,7 @@ export const PRODUCTS = [
     price: 45,
     productImage: product22,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 23,
@@ -241,6 +263,7 @@ export const PRODUCTS = [
     price: 45,
     productImage: product23,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 24,
@@ -249,6 +272,7 @@ export const PRODUCTS = [
     price: 45,
     productImage: product24,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 25,
@@ -257,6 +281,7 @@ export const PRODUCTS = [
     price: 45,
     productImage: product25,
     category: "ready to eat food",
+    warm: "yes",
   },
   {
     id: 26,

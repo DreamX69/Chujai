@@ -1,0 +1,8 @@
+.radio-button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-button {
+  margin-right: 10px;
+}
