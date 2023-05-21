@@ -8,7 +8,7 @@ export const CartItem = (props) => {
     useContext(ShopContext);
 
   return (
-    <div className="cartItem">
+    <div className="cartItem" style={{ marginTop: 60 }}>
       <img src={productImage} />
       <div className="description">
         <p>

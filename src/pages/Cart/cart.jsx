@@ -92,7 +92,7 @@ export const Cart = () => {
   };
 
   return (
-    <div className="cart" style={{ marginTop: 50 }}>
+    <div className="cart" style={{ marginTop: 60 }}>
       <div>
         <h1>สินค้าในตะกร้า ของคุณ</h1>
       </div>
