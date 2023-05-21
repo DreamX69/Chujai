@@ -13,23 +13,25 @@ function Header() {
 
   const { error, isLoggedIn, isReady, liff } = useLiff();
   const [displayName, setDisplayName] = useState("");
-  // const [userId, setuserId] = useState("");
 
   useEffect(() => {
     if (!isLoggedIn) return;
     (async () => {
       const profile = await liff.getProfile();
-
       setDisplayName(profile.displayName);
-      // setuserId(profile.userId);
     })();
   }, [liff, isLoggedIn]);
 
   const loginHandler = () => {
     liff.login();
   };
+
   const logoutHandler = () => {
     liff.logout();
+  };
+
+  const handleMenuClick = () => {
+    setShowMenu(false);
   };
 
   const Login = () => {
@@ -43,7 +45,6 @@ function Header() {
     return (
       <>
         <p style={{ padding: 5 }}>สวัสดีคุณ {displayName}</p>
-        {/* <p>user id {userId}</p> */}
         <button className="loginBTN" onClick={logoutHandler}>
           Logout
         </button>
@@ -102,19 +103,25 @@ function Header() {
         }}
       >
         <ul style={{ listStyle: "none", margin: 0, padding: 0 }}>
-          <li style={{ display: "block", textAlign: "left", padding: "5px" }}>
+          <li
+            style={{ display: "block", textAlign: "left", padding: "5px" }}
+            onClick={handleMenuClick}
+          >
             <Link to="/orderhistory" className="no-underline">
               ประวัติการสั่งซื้อ
             </Link>
           </li>
-
-          <li style={{ display: "block", textAlign: "left", padding: "5px" }}>
+          <li
+            style={{ display: "block", textAlign: "left", padding: "5px" }}
+            onClick={handleMenuClick}
+          >
             <Link to="/address" className="no-underline">
               ที่อยู่ของฉัน
             </Link>
           </li>
-
-          <li style={{ marginBottom: 7 }}>{Login()}</li>
+          <li style={{ marginBottom: 7 }} onClick={handleMenuClick}>
+            {Login()}
+          </li>
         </ul>
       </div>
     </nav>
